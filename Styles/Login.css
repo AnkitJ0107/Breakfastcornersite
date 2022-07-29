@@ -1,0 +1,64 @@
+input:valid{
+    border: 2px solid green;
+}
+input:invalid{
+    border: 2px solid red;
+}
+
+#loginform{
+    border: 1px solid black;
+    display: flex;
+    margin: 0% 40%; 
+    width: 20%;
+    border-radius: 50px;
+    background-color: rgba(63, 63, 63, 0.11);
+    padding-left: 10px;
+}
+#loginform *{
+    display: block;
+    margin: 10px;
+}
+#loginform input{
+    height: 25px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding-left:10px;
+    width: 90%;
+}
+#e1{
+    height: 20px;
+    margin: 10px 0px;
+    padding-left:10px;
+}
+.btn{
+    height:30px;
+    width: 88%;
+    border-radius: 10px;
+}
+
+#signupform{
+    margin-top: 20px;
+    border: 1px solid black;
+    display: flex;
+    margin: 0% 35%;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgba(63, 63, 63, 0.11);
+}
+#signupform *{
+    display: block;
+    margin: 10px;
+}
+#signupform input{
+    height: 25px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding-left:10px ;
+}
+#login{
+    margin: 1% 42%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 230px;
+    border-radius: 20px;
+}

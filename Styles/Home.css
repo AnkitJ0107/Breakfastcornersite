@@ -1,0 +1,43 @@
+#homepage {
+    background: url(../Images/breakfastcorner.webp);
+    mask-repeat: no-repeat;
+    width: 100%;
+    height: 95vh;
+    background-size: 100% 100%;
+}
+
+#homepage h1 {
+    padding: 50vh;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background: rgba(8, 8, 8, 0.2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#gallerysection{
+    width: 100%;
+    background-color: azure;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#gallerysection h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+#gallerysection div{
+    margin: 5px;
+    width: 23%;
+    padding-top: 5px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 5px;
+}
+#gallerysection img{
+    width: 100%;
+    margin:5px;
+    height: 200px;
+    border-radius: 20px;
+}

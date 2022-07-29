@@ -1,0 +1,113 @@
+#aboutus{
+    background: url(../Images/breakfast\ corner2.jpg);
+    mask-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+#aboutus h1 {
+    padding: 50vh;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background: rgba(8, 8, 8, 0.2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#aboutsec{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+#abtleft{
+    width: 45%;
+    height: 300px;
+    flex-wrap: wrap;
+}
+#abtleft img{
+    margin-left:  10px; ;
+    width: 95%;
+    border-radius: 25px;
+}
+#abtright{
+    width: 48%;
+    padding: 20px;
+}
+#abtright h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+#abtright h2{
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#abtright p{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 18px;
+}
+#chef{
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 3%;
+}
+#chef .ourchef{
+    width: 30%;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+#chef .ourchef img{
+    width: 95%;
+    padding: 10px;
+    border-radius: 30px;
+}
+#chef .ourchef figcaption{
+    text-align: center;
+    font-size: 30px;
+}
+#chef .ourchef p{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+#chef h2{
+    margin-right:50px ;
+    text-align: center;
+    font-size: 40px;
+
+}
+#customers{
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 50px;
+}
+#customers h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#customers div{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-top: 30px;
+}
+#customers div img{
+    border-radius: 200px 200px 200px 200px;
+    margin-top: 20px;
+    width: 70%;
+    padding-left: 5%;
+}
+#customers div blockquote{
+    padding: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#customers div p{
+    padding-top: 20px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

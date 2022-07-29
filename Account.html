@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In / Sign Up</title>
+    <link rel="stylesheet" href="./Styles/Style1.css">
+    <link rel="stylesheet" href="Styles/Login.css">
+    <link rel="shortcut icon" href="./Images/breakfast.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./Myscripts/Login.js"></script>
+</head>
+
+<body>
+    <nav class="topnav">
+        <ul>
+            <li class="logo"> <a href="Index.html"><img src="./Images/breakfast.png" alt="logo"><p>BreakFast Corner</p> </a> </li>
+            <li> <a href="index.html"> Home</a> </li>
+            <li> <a href="Menu.html"> Menu </a> </li>
+            <li> <a href="About.html"> About Us </a> </li>
+            <li> <a href="Account.html"> Log In/ Sign Up</a> </li>
+        </ul>
+    </nav>
+    <div id="topdiv"></div>
+    <input type="button" value="To Sign Up Click Here" id="login">
+    <!--<input type="button" value="signup" id="signup">-->
+    <div id="loginform">
+        <form action="Success.html" class="form1" onsubmit="return vform()" id="lform">
+            <h2>Login Here</h2>
+            <table>
+                <tr><td id="e1" style="color: red;"></td></tr>
+                <tr><td><input type="text" placeholder="Username" id="usrname" onblur="v1()"></td></tr>
+                <tr><td><input type="password" placeholder="Password" id="passd" required onblur="v2()"></td></tr>
+                <tr><td><button type="submit" class="btn"> Login </button></td></tr>
+            </table>
+            <p>Note: Use Id : Demo </p>
+            <p>Use password : Demo@123</p>
+        </form>
+    </div>
+    <div id="signupform">
+        <form action="Success.html" onsubmit="return validateForm()" novalidate>
+            <!-- text field-->
+            <h2>Sign Up Here</h2>
+            <table>
+                <tr>
+                    <td><input id="fname" name="myName" onblur="validate1()" placeholder="First Name"></td>
+                </tr>
+
+                <tr>
+                    <td id="error1"></td>
+                </tr>
+                <tr>
+                    <td><input id="lname" name="mylName" onblur="validate2()" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td id="error2"></td>
+                </tr>
+                <tr>
+                    <td><input id="contact" onblur="validate3()" type="tel" placeholder="Mobile Number"></td>
+                </tr>
+                <tr>
+                    <td id="error3"></td>
+                </tr>
+                <tr>
+                    <td><input type="email" onblur="validate4()" id="mail" placeholder="Email Id"></td>
+                </tr>
+                <tr>
+                    <td id="error4"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="uname" onblur="validate5()" placeholder="Set Username"></td>
+                </tr>
+                <tr>
+                    <td id="error5"></td>
+                </tr>
+                <tr>
+                    <td> <input type="password" id="pass" required onblur="validate6()" placeholder="Set Password"></td>
+                </tr>
+                <tr>
+                    <td id="error6"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="check" onchange="showPassword()" style="display: inline-block; margin:0px 10px;"><label style="display: inline-block; margin: 0px;"> Show Password</label></td>
+                </tr>
+                <tr>
+                    <td><input type="password" onblur="validate7()" id="confirmpass" placeholder="Confirm Password"></td>
+                </tr>
+                <tr>
+                    <td id="error7"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="REGISTER"> <input type="reset"></td>
+                </tr>
+            </table>
+    
+        </form>
+    </div>
+
+    <footer>
+        <div>Created By Ankit Jha</div>
+    </footer>
+<script src="Myscripts/Validation.js"></script>
+</body>
+
+</html>
